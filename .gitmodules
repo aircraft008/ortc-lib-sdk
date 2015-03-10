@@ -1,0 +1,57 @@
+[submodule "libs/cryptopp"]
+	path = libs/cryptopp
+	url = https://robin-raymond@github.com/openpeer/cryptopp.git
+	branch = feature-20150301-reorg
+[submodule "libs/curl"]
+	path = libs/curl
+	url = https://robin-raymond@github.com/openpeer/curl-build-scripts.git
+	branch = feature-20150301-reorg
+[submodule "libs/idnkit"]
+	path = libs/idnkit
+	url = https://robin-raymond@github.com/openpeer/idnkit.git
+	branch = feature-20150301-reorg
+[submodule "libs/op-services-cpp"]
+	path = libs/op-services-cpp
+	url = https://robin-raymond@github.com/openpeer/op-services-cpp.git
+	branch = feature-20150301-reorg
+[submodule "libs/ortc-lib"]
+	path = libs/ortc-lib
+	url = https://robin-raymond@github.com/openpeer/ortc-lib.git
+	branch = feature-20150301-reorg
+[submodule "libs/udns"]
+	path = libs/udns
+	url = https://robin-raymond@github.com/openpeer/udns.git
+	branch = feature-20150301-reorg
+[submodule "libs/zsLib"]
+	path = libs/zsLib
+	url = https://robin-raymond@github.com/openpeer/zsLib.git
+	branch = feature-20150301-reorg
+[submodule "libs/webrtc"]
+	path = libs/webrtc
+	url = https://robin-raymond@github.com/openpeer/webrtc.git
+	branch = feature-20150301-reorg
+[submodule "libs/webrtc-deps/colorama"]
+	path = libs/webrtc-deps/colorama
+	url = https://chromium.googlesource.com/external/colorama.git
+[submodule "libs/webrtc-deps/libsrtp"]
+	path = libs/webrtc-deps/libsrtp
+	url = https://robin-raymond@github.com/openpeer/libsrtp.git
+	branch = feature-20150301-reorg
+[submodule "libs/webrtc-deps/libvpx"]
+	path = libs/webrtc-deps/libvpx
+	url = https://robin-raymond@github.com/openpeer/libvpx.git
+	branch = feature-20150301-reorg
+[submodule "libs/webrtc-deps/libyuv"]
+	path = libs/webrtc-deps/libyuv
+	url = https://robin-raymond@github.com/openpeer/libyuv.git
+	branch = feature-20150301-reorg
+[submodule "libs/webrtc-deps/openmax_dl"]
+	path = libs/webrtc-deps/openmax_dl
+	url = https://robin-raymond@github.com/openpeer/openmax_dl.git
+	branch = feature-20150301-reorg
+[submodule "libs/webrtc-deps/opus"]
+	path = libs/webrtc-deps/opus
+	url = https://chromium.googlesource.com/chromium/deps/opus
+[submodule "libs/webrtc-deps/patched-yasm"]
+	path = libs/webrtc-deps/patched-yasm
+	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
