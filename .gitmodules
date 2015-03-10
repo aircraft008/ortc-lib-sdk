@@ -67,3 +67,7 @@
 	path = ios
 	url = https://github.com/openpeer/ortc-lib-ios.git
 	branch = feature-20150301-reorg
+[submodule "winrt"]
+	path = winrt
+	url = https://github.com/openpeer/ortc-lib-winrt.git
+	branch = feature-20150301-reorg
