@@ -55,3 +55,7 @@
 [submodule "libs/webrtc-deps/patched-yasm"]
 	path = libs/webrtc-deps/patched-yasm
 	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
+[submodule "libs/webrtc-deps/webrtc-build"]
+	path = libs/webrtc-deps/webrtc-build
+	url = https://robin-raymond@github.com/openpeer/webrtc-build.git
+	branch = feature-20150301-reorg
