@@ -5,17 +5,29 @@ echo.
 
 set failure=0
 
-if NOT EXIST libs\webrtc\prepare-links.bat call:failure -1 "Did not find WebRTC preparation script!"
+call:doprepare libs\webrtc prepare-links.bat WebRTC
 if "%failure%" neq "0" goto:eof
 
-pushd libs\webrtc
-call prepare-links.bat
-if %errorlevel% neq 0 call:failure %errorlevel% "WebRTC preparation failed."
-popd
+call:doprepare libs\curl prepare.bat curl
 if "%failure%" neq "0" goto:eof
-
 
 goto:done
+
+
+:doprepare
+
+if NOT EXIST %~1\%~2 call:failure -1 "Did not find %~3 preparation script in %~1\%~2!"
+if "%failure%" neq "0" goto:eof
+
+pushd %~1 > NUL
+if ERRORLEVEL 1 call:failure %errorlevel% "%~3 preparation failed."
+call %~2
+if ERRORLEVEL 1 call:failure %errorlevel% "%~3 preparation failed."
+popd > NUL
+if "%failure%" neq "0" goto:eof
+
+
+goto:eof
 
 
 :failure
