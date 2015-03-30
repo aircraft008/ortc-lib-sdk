@@ -26,8 +26,8 @@ prepare()
 }
 
 
-prepare "libs/webrtc" "prepare-links.sh" "WebRTC"
-prepare "libs/curl" "prepare.sh" "curl"
+prepare "." "prepare-webrtc.sh" "WebRTC"
+#prepare libs/curl" "prepare.sh" "curl"
 
 echo 
 echo Success: ortc-lib SDK is prepared.
