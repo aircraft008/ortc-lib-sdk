@@ -75,3 +75,7 @@
 	path = libs/webrtc-deps/libjpeg_turbo
 	url = https://github.com/openpeer/libjpeg_turbo.git
 	branch = feature-20150301-reorg
+[submodule "libs/webrtc-deps/gyp"]
+	path = libs/webrtc-deps/gyp
+	url = https://github.com/openpeer/webrtc-gyp.git
+	branch = WinRT
