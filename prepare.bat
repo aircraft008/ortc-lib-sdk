@@ -5,7 +5,7 @@ echo.
 
 set failure=0
 
-call:doprepare libs\webrtc ..\..\prepare-webrtc.bat WebRTC
+call:doprepare . prepare-webrtc.bat WebRTC
 if "%failure%" neq "0" goto:eof
 
 call:doprepare libs\curl prepare.bat curl

@@ -11,7 +11,7 @@ if "%failure%" neq "0" goto:done_with_error
 
 set cdwebrtcdir=1
 
-call:dolink . build ..\webrtc-deps\webrtc-build
+call:dolink . build ..\webrtc-deps\build
 if "%failure%" neq "0" goto:done_with_error
 call:dolink third_party\yasm\source patched-yasm ..\..\..\..\webrtc-deps\patched-yasm
 if "%failure%" neq "0" goto:done_with_error
@@ -29,7 +29,7 @@ call:dolink third_party openmax_dl ..\..\webrtc-deps\openmax_dl
 if "%failure%" neq "0" goto:done_with_error
 call:dolink third_party libjpeg_turbo ..\..\webrtc-deps\libjpeg_turbo
 if "%failure%" neq "0" goto:done_with_error
-call:dolink tools gyp ..\..\webrtc-deps\webrtc-gyp
+call:dolink tools gyp ..\..\webrtc-deps\gyp
 if "%failure%" neq "0" goto:done_with_error
 
 call:endWebRTC
@@ -89,11 +89,15 @@ goto:eof
 :done_with_error
 
 if "%cdwebrtcdir%" neq "0" popd
+set cdwebrtcdir=0
 
 exit /b %failure%
 goto:eof
 
 :done
+
+if "%cdwebrtcdir%" neq "0" popd
+set cdwebrtcdir=0
 
 echo.
 echo Success: WebRTC ready.
