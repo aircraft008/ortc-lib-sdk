@@ -76,10 +76,6 @@
 	path = libs/webrtc-deps/gyp
 	url = https://github.com/openpeer/webrtc-gyp.git
 	branch = WinRT
-[submodule "libs/webrtc-deps/webrtc-gyp"]
-	path = libs/webrtc-deps/webrtc-gyp
-	url = https://github.com/openpeer/webrtc-gyp.git
-	branch = WinRT
 [submodule "libs/webrtc-deps/build"]
 	path = libs/webrtc-deps/build
 	url = https://github.com/openpeer/webrtc-build.git
