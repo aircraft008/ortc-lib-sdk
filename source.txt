@@ -1,0 +1,11 @@
+git clone https://chromium.googlesource.com/external/webrtc
+git clone https://chromium.googlesource.com/external/colorama
+git clone https://chromium.googlesource.com/chromium/deps/libjpeg_turbo
+git clone https://chromium.googlesource.com/chromium/deps/libsrtp
+git clone https://chromium.googlesource.com/chromium/deps/libvpx
+git clone https://chromium.googlesource.com/external/libyuv
+git clone https://chromium.googlesource.com/external/webrtc/deps/third_party/openmax
+git clone https://chromium.googlesource.com/chromium/deps/opus
+git clone https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
+git clone https://chromium.googlesource.com/chromium/src/build
+git clone https://chromium.googlesource.com/experimental/external/gyp
