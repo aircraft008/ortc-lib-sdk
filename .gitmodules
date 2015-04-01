@@ -51,7 +51,8 @@
 	branch = feature-20150301-reorg
 [submodule "libs/webrtc-deps/opus"]
 	path = libs/webrtc-deps/opus
-	url = https://chromium.googlesource.com/chromium/deps/opus
+	url=https://github.com/openpeer/opus.git
+	branch = WinRT
 [submodule "libs/webrtc-deps/patched-yasm"]
 	path = libs/webrtc-deps/patched-yasm
 	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
