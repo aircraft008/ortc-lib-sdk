@@ -36,11 +36,11 @@
 [submodule "libs/webrtc-deps/libsrtp"]
 	path = libs/webrtc-deps/libsrtp
 	url = https://github.com/openpeer/libsrtp.git
-	branch = feature-20150301-reorg
+	branch = WinRT
 [submodule "libs/webrtc-deps/libvpx"]
 	path = libs/webrtc-deps/libvpx
 	url = https://github.com/openpeer/libvpx.git
-	branch = feature-20150301-reorg
+	branch = WinRT
 [submodule "libs/webrtc-deps/libyuv"]
 	path = libs/webrtc-deps/libyuv
 	url = https://github.com/openpeer/libyuv.git
@@ -48,7 +48,7 @@
 [submodule "libs/webrtc-deps/openmax_dl"]
 	path = libs/webrtc-deps/openmax_dl
 	url = https://github.com/openpeer/openmax_dl.git
-	branch = feature-20150301-reorg
+	branch = master
 [submodule "libs/webrtc-deps/opus"]
 	path = libs/webrtc-deps/opus
 	url=https://github.com/openpeer/opus.git
@@ -56,6 +56,7 @@
 [submodule "libs/webrtc-deps/patched-yasm"]
 	path = libs/webrtc-deps/patched-yasm
 	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
+	branch = master
 [submodule "ios"]
 	path = ios
 	url = https://github.com/openpeer/ortc-lib-ios.git
@@ -67,7 +68,7 @@
 [submodule "libs/webrtc-deps/libjpeg_turbo"]
 	path = libs/webrtc-deps/libjpeg_turbo
 	url = https://github.com/openpeer/libjpeg_turbo.git
-	branch = feature-20150301-reorg
+	branch = WinRT
 [submodule "libs/webrtc-deps/gyp"]
 	path = libs/webrtc-deps/gyp
 	url = https://github.com/openpeer/webrtc-gyp.git
