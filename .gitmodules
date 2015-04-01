@@ -59,10 +59,6 @@
 	path = libs/webrtc-deps/webrtc-build
 	url = https://github.com/openpeer/webrtc-build.git
 	branch = feature-20150301-reorg
-[submodule "libs/webrtc-deps/webrtc-gyp"]
-	path = libs/webrtc-deps/webrtc-gyp
-	url = https://github.com/openpeer/webrtc-gyp.git
-	branch = feature-20150301-reorg
 [submodule "ios"]
 	path = ios
 	url = https://github.com/openpeer/ortc-lib-ios.git
