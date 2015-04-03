@@ -45,10 +45,6 @@
 	path = libs/webrtc-deps/libyuv
 	url = https://github.com/openpeer/libyuv.git
 	branch = feature-20150301-reorg
-[submodule "libs/webrtc-deps/openmax_dl"]
-	path = libs/webrtc-deps/openmax_dl
-	url = https://github.com/openpeer/openmax_dl.git
-	branch = master
 [submodule "libs/webrtc-deps/opus"]
 	path = libs/webrtc-deps/opus
 	url=https://github.com/openpeer/opus.git
