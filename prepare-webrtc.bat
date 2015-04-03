@@ -25,7 +25,7 @@ call:dolink third_party libvpx ..\..\webrtc-deps\libvpx
 if "%failure%" neq "0" goto:done_with_error
 call:dolink third_party libyuv ..\..\webrtc-deps\libyuv
 if "%failure%" neq "0" goto:done_with_error
-call:dolink third_party openmax_dl ..\..\webrtc-deps\openmax_dl
+call:dolink third_party openmax_dl ..\..\webrtc-deps\openmax
 if "%failure%" neq "0" goto:done_with_error
 call:dolink third_party libjpeg_turbo ..\..\webrtc-deps\libjpeg_turbo
 if "%failure%" neq "0" goto:done_with_error
