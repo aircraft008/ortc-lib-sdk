@@ -76,3 +76,6 @@
 [submodule "libs/webrtc-deps/openmax"]
 	path = libs/webrtc-deps/openmax
 	url = https://github.com/openpeer/openmax.git
+[submodule "bin"]
+	path = bin
+	url = https://github.com/openpeer/ortc-lib-sdk-bin.git
