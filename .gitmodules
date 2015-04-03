@@ -77,3 +77,6 @@
 	path = libs/webrtc-deps/build
 	url = https://github.com/openpeer/webrtc-build.git
 	branch = WinRT
+[submodule "libs/webrtc-deps/openmax"]
+	path = libs/webrtc-deps/openmax
+	url = https://github.com/openpeer/openmax.git
