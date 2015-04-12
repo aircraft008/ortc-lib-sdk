@@ -32,7 +32,7 @@
 	branch = feature-20150301-reorg
 [submodule "libs/webrtc-deps/colorama"]
 	path = libs/webrtc-deps/colorama
-	url = https://chromium.googlesource.com/external/colorama.git
+	url = https://github.com/openpeer/colorama.git
 [submodule "libs/webrtc-deps/libsrtp"]
 	path = libs/webrtc-deps/libsrtp
 	url = https://github.com/openpeer/libsrtp.git
@@ -51,7 +51,7 @@
 	branch = WinRT
 [submodule "libs/webrtc-deps/patched-yasm"]
 	path = libs/webrtc-deps/patched-yasm
-	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
+	url = https://github.com/openpeer/patched-yasm.git
 	branch = master
 [submodule "ios"]
 	path = ios
@@ -79,3 +79,4 @@
 [submodule "bin"]
 	path = bin
 	url = https://github.com/openpeer/ortc-lib-sdk-bin.git
+	branch = feature-20150301-reorg
