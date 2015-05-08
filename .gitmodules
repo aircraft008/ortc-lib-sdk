@@ -87,6 +87,7 @@
 [submodule "libs/webrtc-deps/usrsctp"]
 	path = libs/webrtc-deps/usrsctp
 	url = https://github.com/openpeer/usrsctplib.git
+	branch = WinRT
 [submodule "libs/webrtc-deps/yasm/binaries"]
 	path = libs/webrtc-deps/yasm/binaries
 	url = https://chromium.googlesource.com/chromium/deps/yasm/binaries
