@@ -80,3 +80,7 @@
 	path = bin
 	url = https://github.com/openpeer/ortc-lib-sdk-bin.git
 	branch = feature-20150301-reorg
+[submodule "libs/webrtc-deps/boringssl"]
+	path = libs/webrtc-deps/boringssl
+	url = https://github.com/openpeer/boringssl.git
+	branch = WinRT
