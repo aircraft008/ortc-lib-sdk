@@ -84,3 +84,6 @@
 	path = libs/webrtc-deps/boringssl
 	url = https://github.com/openpeer/boringssl.git
 	branch = WinRT
+[submodule "libs/webrtc-deps/usrsctp"]
+	path = libs/webrtc-deps/usrsctp
+	url = https://github.com/openpeer/usrsctplib.git
