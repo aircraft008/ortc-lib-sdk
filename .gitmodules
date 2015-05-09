@@ -91,3 +91,6 @@
 [submodule "libs/webrtc-deps/yasm/binaries"]
 	path = libs/webrtc-deps/yasm/binaries
 	url = https://chromium.googlesource.com/chromium/deps/yasm/binaries
+[submodule "libs/webrtc-deps/chromium"]
+	path = libs/webrtc-deps/chromium
+	url = https://github.com/openpeer/chromium-pruned.git
