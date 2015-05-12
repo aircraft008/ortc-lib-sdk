@@ -94,3 +94,7 @@
 [submodule "libs/webrtc-deps/chromium"]
 	path = libs/webrtc-deps/chromium
 	url = https://github.com/openpeer/chromium-pruned.git
+[submodule "libs/webrtc-deps/gtest"]
+	path = libs/webrtc-deps/gtest
+	url = https://github.com/openpeer/gtest.git
+	branch = WinRT
