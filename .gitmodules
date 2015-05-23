@@ -98,3 +98,7 @@
 	path = libs/webrtc-deps/gtest
 	url = https://github.com/openpeer/gtest.git
 	branch = WinRT
+[submodule "libs/webrtc-deps/jsoncpp"]
+	path = libs/webrtc-deps/jsoncpp
+	url = https://github.com/openpeer/jsoncpp.git
+	branch = WinRT
